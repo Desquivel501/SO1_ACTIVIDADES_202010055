@@ -59,12 +59,13 @@ cuando un programa se inicia en un sistema operativo inicia en modo de usuario. 
 ### Diferencias
 
 | Modo Kernel                                                                                     | Modo Usuario                                                                     |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --- |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | El programa tiene acceso completo a los recursos del sistema                                    | El programa debe pedir permiso al kernel para acceder a los recursos del sistema |
 | Todos los procesos comparten un espacio de direcciones virtuales                                | Cada proceso es separado en espacios de direcciones virtuales separadas          |
 | Este modo puede acceder tanto a los programas del usuario como a los programas del kernel       | Solamente puede acceder a programas del programa                                 |
 | Puede acceder a la memoria tanto de usuario como la del kernel                                  | Solo puede acceder a la memoria de usuario                                       |
 | Un crasheo en este modo puede dañar severa e irreparablemente el sistema operativo o la memoria | Un crasheo en este modo puede ser recuperado simplemente al reiniciar el equipo  |
-| Si ocurre una interrupcion del kernel todo el sistema operativo puede llegar a fallar           | Una interrupcion en este modo solo causara el fallo de uno o multiples procesos  |     |
+| Si ocurre una interrupcion del kernel todo el sistema operativo puede llegar a fallar           | Una interrupcion en este modo solo causara el fallo de uno o multiples procesos  |
+
 
 ![Micro](images/usuario_vs_kernel.png)
