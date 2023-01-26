@@ -23,9 +23,11 @@ Los kernel hibridos son una cobinacion entre los kernel monoliticos y los microk
 ![Micro](images/hibrido.png)
 
 ###Nano Kernel
+
 Los nano kernels son el tipo más pequeño de Kernel, que consta de solo unas pocas miles de líneas de código. Significa que el código que se ejecuta en el modo privilegiado del hardware es mínimo. Se utilizan principalmente en sistemas embebidos o dispositivos con recursos limitados.
 
 ###Exo Kernel
+
 Este Kernel tiene protección y administración de recursos por separado. Este se utiliza cuando se realiza una personalización específica de la aplicación. Los Exo Kernel están diseñados generalmente para su uso en dispositivos móviles. Son una variación de los micronúcleos que incluyen características adicionales específicas para dispositivos móviles, como administración de energía y soporte para múltiples procesadores.
 
 ![Micro](images/exo.png)
