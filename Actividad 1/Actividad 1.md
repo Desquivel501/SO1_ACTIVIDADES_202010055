@@ -69,3 +69,12 @@ cuando un programa se inicia en un sistema operativo inicia en modo de usuario. 
 
 
 ![Micro](images/usuario_vs_kernel.png)
+
+
+---
+Actividad 1
+Sistemas Operativos 1 - Sección A
+Derek Esquivel Diaz
+202010055
+
+
