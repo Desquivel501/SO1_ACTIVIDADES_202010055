@@ -72,9 +72,9 @@ cuando un programa se inicia en un sistema operativo inicia en modo de usuario. 
 
 
 ---
-Actividad 1
-Sistemas Operativos 1 - Sección A
-Derek Esquivel Diaz
-202010055
+Actividad 1 <br />
+Sistemas Operativos 1 - Sección A <br />
+Derek Esquivel Diaz <br />
+202010055 
 
 
