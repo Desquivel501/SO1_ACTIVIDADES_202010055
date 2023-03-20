@@ -9,7 +9,7 @@ Este sera un simple scipt de bash para obtener el nombre del usuario e imprimir 
 
 ```bash
 #!/bin/bash
-current_date=$('date +%d-%m-%Y %H:%M:%S')
+current_date=$(date '+%d-%m-%Y %H:%M:%S')
 username=$(whoami)
 echo "Hola $username! La fecha de hoy es $current_date"  >> /var/log/saludo.txt
 ```
